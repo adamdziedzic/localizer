@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D9B8216272EC88902151561 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B8AC90B5C7FED1D1B97E5 /* MainViewController.m */; };
+		2D9B89FF85767CE39316AA06 /* VenuesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B82DE689C205D3551181D /* VenuesTableViewCell.m */; };
+		2D9B8C1E9C452B1E5EBABDAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9B874B28A9FDDC9792E4CC /* AppDelegate.m */; };
+		4D6A0FFA6726A298E668FEC2 /* libPods-localizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF4F516390886F9CA5B3EE5 /* libPods-localizer.a */; };
 		66DCEAA919E2FAAE00F1F464 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCEAA819E2FAAE00F1F464 /* Foundation.framework */; };
 		66DCEAAB19E2FAAE00F1F464 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCEAAA19E2FAAE00F1F464 /* CoreGraphics.framework */; };
 		66DCEAAD19E2FAAE00F1F464 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCEAAC19E2FAAE00F1F464 /* UIKit.framework */; };
 		66DCEAAF19E2FAAE00F1F464 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCEAAE19E2FAAE00F1F464 /* CoreData.framework */; };
 		66DCEAB519E2FAAE00F1F464 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66DCEAB319E2FAAE00F1F464 /* InfoPlist.strings */; };
 		66DCEAB719E2FAAE00F1F464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DCEAB619E2FAAE00F1F464 /* main.m */; };
-		66DCEABB19E2FAAE00F1F464 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DCEABA19E2FAAE00F1F464 /* AppDelegate.m */; };
 		66DCEABE19E2FAAE00F1F464 /* localizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 66DCEABC19E2FAAE00F1F464 /* localizer.xcdatamodeld */; };
 		66DCEAC019E2FAAE00F1F464 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66DCEABF19E2FAAE00F1F464 /* Images.xcassets */; };
 		66DCEAC719E2FAAE00F1F464 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCEAC619E2FAAE00F1F464 /* XCTest.framework */; };
@@ -22,6 +25,7 @@
 		66DCEACA19E2FAAE00F1F464 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DCEAAE19E2FAAE00F1F464 /* CoreData.framework */; };
 		66DCEAD219E2FAAE00F1F464 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66DCEAD019E2FAAE00F1F464 /* InfoPlist.strings */; };
 		66DCEAD419E2FAAE00F1F464 /* localizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DCEAD319E2FAAE00F1F464 /* localizerTests.m */; };
+		66DCEADE19E2FAC900F1F464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66DCEADD19E2FAC900F1F464 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		133541D7E8E6769DA565F0C6 /* Pods-localizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-localizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-localizer/Pods-localizer.release.xcconfig"; sourceTree = "<group>"; };
+		2D9B811E0B5957546EBBB191 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D9B82DE689C205D3551181D /* VenuesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenuesTableViewCell.m; sourceTree = "<group>"; };
+		2D9B83A1F5AE7805B06DA34A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2D9B85E3B87D6E345B56CEE0 /* VenuesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenuesTableViewCell.h; sourceTree = "<group>"; };
+		2D9B874B28A9FDDC9792E4CC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D9B8AC90B5C7FED1D1B97E5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2DF4F516390886F9CA5B3EE5 /* libPods-localizer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-localizer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5955C3644F1DA87325D7C1FC /* Pods-localizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-localizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-localizer/Pods-localizer.debug.xcconfig"; sourceTree = "<group>"; };
 		66DCEAA519E2FAAE00F1F464 /* localizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = localizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66DCEAA819E2FAAE00F1F464 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66DCEAAA19E2FAAE00F1F464 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -44,8 +57,6 @@
 		66DCEAB419E2FAAE00F1F464 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66DCEAB619E2FAAE00F1F464 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66DCEAB819E2FAAE00F1F464 /* localizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "localizer-Prefix.pch"; sourceTree = "<group>"; };
-		66DCEAB919E2FAAE00F1F464 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		66DCEABA19E2FAAE00F1F464 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		66DCEABD19E2FAAE00F1F464 /* localizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = localizer.xcdatamodel; sourceTree = "<group>"; };
 		66DCEABF19E2FAAE00F1F464 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		66DCEAC519E2FAAE00F1F464 /* localizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = localizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +64,7 @@
 		66DCEACF19E2FAAE00F1F464 /* localizerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "localizerTests-Info.plist"; sourceTree = "<group>"; };
 		66DCEAD119E2FAAE00F1F464 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66DCEAD319E2FAAE00F1F464 /* localizerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = localizerTests.m; sourceTree = "<group>"; };
+		66DCEADD19E2FAC900F1F464 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 				66DCEAAF19E2FAAE00F1F464 /* CoreData.framework in Frameworks */,
 				66DCEAAD19E2FAAE00F1F464 /* UIKit.framework in Frameworks */,
 				66DCEAA919E2FAAE00F1F464 /* Foundation.framework in Frameworks */,
+				4D6A0FFA6726A298E668FEC2 /* libPods-localizer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D9B82B2F83DFF603951F744 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2D9B874B28A9FDDC9792E4CC /* AppDelegate.m */,
+				2D9B811E0B5957546EBBB191 /* AppDelegate.h */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2D9B86D172889EB49C07BC62 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2D9B82DE689C205D3551181D /* VenuesTableViewCell.m */,
+				2D9B85E3B87D6E345B56CEE0 /* VenuesTableViewCell.h */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2D9B8AA255B1A0F3BB12DD22 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D9B8AC90B5C7FED1D1B97E5 /* MainViewController.m */,
+				2D9B83A1F5AE7805B06DA34A /* MainViewController.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		66DCEA9C19E2FAAE00F1F464 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +128,7 @@
 				66DCEACD19E2FAAE00F1F464 /* localizerTests */,
 				66DCEAA719E2FAAE00F1F464 /* Frameworks */,
 				66DCEAA619E2FAAE00F1F464 /* Products */,
+				71D50FFB41F7F1D924973DB5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +149,7 @@
 				66DCEAAC19E2FAAE00F1F464 /* UIKit.framework */,
 				66DCEAAE19E2FAAE00F1F464 /* CoreData.framework */,
 				66DCEAC619E2FAAE00F1F464 /* XCTest.framework */,
+				2DF4F516390886F9CA5B3EE5 /* libPods-localizer.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,11 +157,13 @@
 		66DCEAB019E2FAAE00F1F464 /* localizer */ = {
 			isa = PBXGroup;
 			children = (
-				66DCEAB919E2FAAE00F1F464 /* AppDelegate.h */,
-				66DCEABA19E2FAAE00F1F464 /* AppDelegate.m */,
 				66DCEABF19E2FAAE00F1F464 /* Images.xcassets */,
 				66DCEABC19E2FAAE00F1F464 /* localizer.xcdatamodeld */,
 				66DCEAB119E2FAAE00F1F464 /* Supporting Files */,
+				66DCEADD19E2FAC900F1F464 /* Main.storyboard */,
+				2D9B8AA255B1A0F3BB12DD22 /* Controllers */,
+				2D9B86D172889EB49C07BC62 /* Cells */,
+				2D9B82B2F83DFF603951F744 /* AppDelegate */,
 			);
 			path = localizer;
 			sourceTree = "<group>";
@@ -153,6 +197,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		71D50FFB41F7F1D924973DB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5955C3644F1DA87325D7C1FC /* Pods-localizer.debug.xcconfig */,
+				133541D7E8E6769DA565F0C6 /* Pods-localizer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66DCEAD719E2FAAE00F1F464 /* Build configuration list for PBXNativeTarget "localizer" */;
 			buildPhases = (
+				CD8C496A7E70AE28E36C1C18 /* Check Pods Manifest.lock */,
 				66DCEAA119E2FAAE00F1F464 /* Sources */,
 				66DCEAA219E2FAAE00F1F464 /* Frameworks */,
 				66DCEAA319E2FAAE00F1F464 /* Resources */,
+				6B0AFABFCE87196F309CC462 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +269,8 @@
 			mainGroup = 66DCEA9C19E2FAAE00F1F464;
 			productRefGroup = 66DCEAA619E2FAAE00F1F464 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				66DCEAA419E2FAAE00F1F464 /* localizer */,
@@ -227,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66DCEADE19E2FAC900F1F464 /* Main.storyboard in Resources */,
 				66DCEAB519E2FAAE00F1F464 /* InfoPlist.strings in Resources */,
 				66DCEAC019E2FAAE00F1F464 /* Images.xcassets in Resources */,
 			);
@@ -242,14 +300,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B0AFABFCE87196F309CC462 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-localizer/Pods-localizer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8C496A7E70AE28E36C1C18 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66DCEAA119E2FAAE00F1F464 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				66DCEABE19E2FAAE00F1F464 /* localizer.xcdatamodeld in Sources */,
-				66DCEABB19E2FAAE00F1F464 /* AppDelegate.m in Sources */,
 				66DCEAB719E2FAAE00F1F464 /* main.m in Sources */,
+				2D9B8216272EC88902151561 /* MainViewController.m in Sources */,
+				2D9B8C1E9C452B1E5EBABDAC /* AppDelegate.m in Sources */,
+				2D9B89FF85767CE39316AA06 /* VenuesTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,12 +458,14 @@
 		};
 		66DCEAD819E2FAAE00F1F464 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5955C3644F1DA87325D7C1FC /* Pods-localizer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "localizer/localizer-Prefix.pch";
 				INFOPLIST_FILE = "localizer/localizer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -378,12 +473,14 @@
 		};
 		66DCEAD919E2FAAE00F1F464 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 133541D7E8E6769DA565F0C6 /* Pods-localizer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "localizer/localizer-Prefix.pch";
 				INFOPLIST_FILE = "localizer/localizer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
